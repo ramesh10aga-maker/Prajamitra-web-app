@@ -1,0 +1,77 @@
+import { ContactItem, GovernmentOrder } from "../types";
+
+export const HELPLINE_CONTACTS: ContactItem[] = [
+  {
+    id: "HL-001",
+    officeNameEn: "Spandana / Citizen Grievance Portal",
+    officeNameTe: "స్పందన / పౌర సమస్యల పరిష్కార వేదిక",
+    designationEn: "Toll Free Helpline",
+    designationTe: "ఉచిత హెల్ప్‌లైన్",
+    phone: "1902",
+    email: "spandana@ap.gov.in",
+    location: "Velagapudi, Amaravati",
+  },
+  {
+    id: "HL-002",
+    officeNameEn: "Revenue Department (CCLA)",
+    officeNameTe: "రెవెన్యూ శాఖ (సిసిఎల్‌ఎ)",
+    designationEn: "State Command Desk",
+    designationTe: "రాష్ట్ర కమాండ్ డెస్క్",
+    phone: "1800-425-4440",
+    email: "ccla@ap.gov.in",
+    location: "Mangalagiri, Guntur",
+  },
+  {
+    id: "HL-003",
+    officeNameEn: "Panchayat Raj & Rural Development",
+    officeNameTe: "పంచాయతీ రాజ్ మరియు గ్రామీణాభివృద్ధి శాఖ",
+    designationEn: "Sachivalayam Helpline",
+    designationTe: "సచివాలయ హెల్ప్‌లైన్",
+    phone: "1800-425-1110",
+    email: "gsws@ap.gov.in",
+    location: "Vijayawada",
+  },
+  {
+    id: "HL-004",
+    officeNameEn: "Registration & Stamps Department (IGRS)",
+    officeNameTe: "రిజిస్ట్రేషన్ మరియు స్టాంపుల శాఖ",
+    designationEn: "Citizen Services Desk",
+    designationTe: "పౌర సేవల డెస్క్",
+    phone: "1800-599-4788",
+    email: "igrs@ap.gov.in",
+    location: "Vijayawada",
+  },
+];
+
+export const GOVERNMENT_ORDERS: GovernmentOrder[] = [
+  {
+    id: "GO-001",
+    goNumber: "G.O.Ms.No. 15",
+    departmentEn: "Revenue (Services-II) Department",
+    departmentTe: "రెవెన్యూ శాఖ",
+    issueDate: "2024-02-15",
+    subjectEn: "Implementation of Webland 2.0 digital survey records and mutation timelines.",
+    subjectTe: "వెబ్‌ల్యాండ్ 2.0 డిజిటల్ సర్వే రికార్డులు మరియు మ్యుటేషన్ కాలపరిమితి అమలు.",
+    downloadUrl: "https://goir.ap.gov.in",
+  },
+  {
+    id: "GO-002",
+    goNumber: "G.O.Ms.No. 110",
+    departmentEn: "Gram Volunteers / Ward Volunteers and Village Secretariats",
+    departmentTe: "గ్రామ వార్డు సచివాలయాల శాఖ",
+    issueDate: "2023-11-20",
+    subjectEn: "Standard operating procedure for doorstep delivery of 540+ citizen services.",
+    subjectTe: "540+ పౌర సేవల ప్రామాణిక కార్యాచరణ విధానం (SOP).",
+    downloadUrl: "https://goir.ap.gov.in",
+  },
+  {
+    id: "GO-003",
+    goNumber: "G.O.Rt.No. 45",
+    departmentEn: "Registration & Stamps",
+    departmentTe: "రిజిస్ట్రేషన్ మరియు స్టాంపుల శాఖ",
+    issueDate: "2024-01-10",
+    subjectEn: "Digital Encumbrance Certificate (EC) and Market Value calculation guidelines.",
+    subjectTe: "డిజిటల్ ఈసీ మరియు మార్కెట్ విలువ లెక్కింపు మార్గదర్శకాలు.",
+    downloadUrl: "https://goir.ap.gov.in",
+  },
+];

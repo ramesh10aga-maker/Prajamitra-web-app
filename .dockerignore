@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+node_modules
+backend
+*.md
+build.gradle.kts
+settings.gradle.kts
+pom.xml
+target
+dist
+bun.lock
