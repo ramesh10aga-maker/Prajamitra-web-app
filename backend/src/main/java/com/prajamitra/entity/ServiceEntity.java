@@ -67,9 +67,6 @@ public class ServiceEntity {
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
         this.updatedAt = OffsetDateTime.now();
-        if (this.lastVerifiedAt == null) {
-            this.lastVerifiedAt = OffsetDateTime.now();
-        }
     }
 
     @PreUpdate
